@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style> body body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #E6E6FA; /* Soft lavender background */
+    }
+    
+    header {
+        background-color: #d660eb; /* Vibrant orange-red */
+        color: #ffffff; /* White text */
+        text-align: center;
+        padding: 2rem 0;
+        position: relative;
+    }
+    
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    /* Round profile picture */
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: absolute;
+        top: 75px;
+        left: 75px;
+        border: 3px solid #ffffff; /* White border for contrast */
+    }
+    
+    nav {
+        background-color: #333333; /* Dark grey */
+        color: #ffffff;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #ffcc00; /* Bright yellow */
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        color: #c7360a; /* Orange-red on hover */
+    }
+    
+    .section-content {
+        background-color: #ffffff; /* White background */
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: justify;
+        color: #333333; /* Dark grey text */
+    }
+    
+    .download-button {
+        background-color: #28a745; /* Green button */
+        color: #ffffff;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 20px;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .download-button:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem 0;
+        background-color: #222222; /* Very dark grey */
+        color: #ffffff;
+    }
+    
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        color: #555555; /* Slightly lighter grey */
+    }
+    
+    
+       body 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="C:\Users\jagat\OneDrive\Desktop\new.project\IMG_20250315_121948.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>D.VADIVUKKARASI</h1>
+            <h2> I AM STUDENT </h2>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+        
+            <h2>About Me</h2>
+            <h2>Hey, Welcome! I am <span class="span">Vadivukkarasi.D</span></h2>
+            <h4>Welcome to My About Us Page</h4>
+            <button onclick="Change()" id="btn">Click to See My Education</button>
+            <div id="one">
+                
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <li>My 10th Mark is <span class="ones">440</span></li>
+            <li>My 12th Mark is <span class="ones">520</span></li>
+            <Li>I am studying in H.H.THE RAJAH'S  COLLAGE in BCA </Li>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>REACT JS</li>
+            <li>CORE JAVA</li>
+            </ul>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section-content">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Calculator App</h3>
+            <Li>A simple calculator built using HTML, CSS, and JavaScript.</Li>
+            <a href="calculator.html">View Project</a>
+        </div>
+    
+        <div class="project">
+            <h3>Food Shop Website</h3>
+            <li>An online food ordering website.</li>
+            <a href="foodshop.html">View Project</a>
+        </div>
+    </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="file.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 VADIVUKKARASI  | <a href="#">Portfolio Website</a></p>
+        <p>Follow me: 
+            <a href="#">LinkedIn</a> | 
+            <a href="#">GitHub</a>
+        </p>
+    </footer>
+  jash
+</body>
+</html>
